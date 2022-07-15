@@ -3,7 +3,7 @@ Speaker: [Ruthie Nielsen, Lead Character Rigger at TT Games](https://twitter.com
 _"Become technical. You can learn that. If you're creative and technical you're unstoppable!" - Robert Rodriguez_
 - Technical skills are beneficial to creatives, but many creative individuals shudder at the thought of learning Python or other technical skills and block themselves from reaching their full potential. Developing technical skills and learning skills in new areas will increase your creativity by creating new pathways in your brain.
 - Get comfortable with being uncomfortable: it's OK to be afraid! 
-- Preserverance is key: be honest about what you don't know and get support.
+- Preserverance is key: be honest about what you don't know and get support. Everyone feels like an imposter sometimes and that's okay.
 - Don't work in isolation.
 
 # How Creative Brains Work
@@ -32,9 +32,9 @@ _"We won't be able to understand the brain. It is the most complex thing in the 
 - Online courses
 
 ### The Habit Loop: Make New Habits Stick
-1. Trigger
-2. Action
-3. Reward
+1. Trigger: make your trigger obvious using reminders
+2. Action: create a nice environment to entice your brain
+3. Reward: use satisfying rewards like your favourite drink 
 
 ## The Future of Technical vs Creative
 - Node-based software for artists to do things themselves instead of asking programmers, more new roles that require creative & technical balance.
