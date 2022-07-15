@@ -39,7 +39,8 @@ _"We won't be able to understand the brain. It is the most complex thing in the 
 3. Reward: use satisfying rewards like your favourite drink 
 
 ## The Future of Technical vs Creative
-- Node-based software for artists to do things themselves instead of asking programmers, more new roles that require creative & technical balance.
+- Node-based software for artists to do things themselves instead of asking programmers.
+- More emerging new roles that require creative & technical balance.
 - Traditional Education pushes us to specialise: Bachelor of Arts or Bachelor of Science at university level, we're losing out on the middle ground and we have to change, otherwise it will continue to be difficult to recruit people for those new roles.
 
 ## Resources
