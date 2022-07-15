@@ -9,9 +9,10 @@ _"We won't be able to understand the brain. It is the most complex thing in the 
 - Debunking the myth of Left brain people (logical) vs Right brain people (creative): this myth originated from Roger Sperry's Split Brain experiments in the 1960s, but in 2013 the University of Utah concluded there was no evidence for people having a dominant side after analysing thousands of MRI scans. Everyone is able to use their entire brain equally. 
 - Highly creative people have significantly more white matter connections between the right brain & the left brain, jumping between both brains a lot.
 - Neuroplasticity: the brain's ability to change & adapt, this can happen at any age.
-- Creative people are capable of technical thinking, and vice versa.
+- Creative people are capable of technical thinking, the only limitations are the limitations that you're putting on yourself.
 
 ## Developing Technical Skills
-
+- Evaluate your skillset: hard & soft skills list with a rating of [1 - 10]
+- 
 ## The Future of Technical vs Creative
 
