@@ -1,4 +1,5 @@
 Speaker: [Ruthie Nielsen, Lead Character Rigger at TT Games](https://twitter.com/ruthie_nielsen)
+
 # Overview
 _"Become technical. You can learn that. If you're creative and technical you're unstoppable!" - Robert Rodriguez_
 - Technical skills are beneficial to creatives, but many creative individuals shudder at the thought of learning Python or other technical skills and block themselves from reaching their full potential. Developing technical skills and learning skills in new areas will increase your creativity by creating new pathways in your brain.
@@ -30,6 +31,7 @@ _"We won't be able to understand the brain. It is the most complex thing in the 
 - Exchange skills: mentor each other, help each other out with hurdles
 - Game Jams
 - Online courses
+- Set SMART Goal: Specific, Measurable, Achievable, Relevant, Time-based
 
 ### The Habit Loop: Make New Habits Stick
 1. Trigger: make your trigger obvious using reminders
@@ -39,3 +41,8 @@ _"We won't be able to understand the brain. It is the most complex thing in the 
 ## The Future of Technical vs Creative
 - Node-based software for artists to do things themselves instead of asking programmers, more new roles that require creative & technical balance.
 - Traditional Education pushes us to specialise: Bachelor of Arts or Bachelor of Science at university level, we're losing out on the middle ground and we have to change, otherwise it will continue to be difficult to recruit people for those new roles.
+
+## Resources
+- [Codeacademy](https://www.codecademy.com/)
+- [The Python Course for Complete Beginners](https://python.land/product/python-course)
+- [Unreal Blueprints](https://www.unrealengine.com/en-US/blog/the-15-best-online-courses-to-learn-unreal-engine)
