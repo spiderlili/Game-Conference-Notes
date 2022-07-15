@@ -46,3 +46,4 @@ _"We won't be able to understand the brain. It is the most complex thing in the 
 - [Codeacademy](https://www.codecademy.com/)
 - [The Python Course for Complete Beginners](https://python.land/product/python-course)
 - [Unreal Blueprints](https://www.unrealengine.com/en-US/blog/the-15-best-online-courses-to-learn-unreal-engine)
+- [Matrix Maths](https://www.khanacademy.org/math/algebra-home/alg-matrices)
