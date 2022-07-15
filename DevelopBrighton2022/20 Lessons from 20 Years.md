@@ -27,4 +27,5 @@ Business advice and takeaways from industry luminaries and some of the most prom
 8. Owning intellectual property is fundamental to the value of any company, greater value will be established through these IP. Do not be afraid of failure, it's just success working in progress. It's important to partner with someone who knows the business side of the games industry.
 9. If red lines are being crossed, just fire that person to protect your team. - Allan Cudico
  
+cont: 3318
 https://reattendance.com/event-lobby/5884/session-stage
