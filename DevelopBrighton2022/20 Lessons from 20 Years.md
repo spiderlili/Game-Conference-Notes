@@ -1,9 +1,9 @@
-Speakers: James Batchelor (Journalist, GamesIndustry.biz), Dinga Bakaba (Studio Director, Arkane Studios), Warren Spector (CCO, OtherSide Entertainment), Brenda Romero (CEO, Romero Games), Sam Barlow (Game Director, Climax Studios), Caroline Marchal (CEO, INT./NIGHT), Aaryn Flynn (CEO, Inflexion Games), Rami Ismail (Founder, Vlambeer), Ian Livingstone (Founder, Games Workshop), Allan Cudico (Founder, Twin Drums)
+Speakers: James Batchelor (Journalist, GamesIndustry.biz), Dinga Bakaba (Studio Director, Arkane Studios), Warren Spector (CCO, OtherSide Entertainment), Brenda Romero (CEO, Romero Games), Sam Barlow (Game Director, Climax Studios), Caroline Marchal (CEO, INT./NIGHT), Aaryn Flynn (CEO, Inflexion Games), Rami Ismail (Founder, Vlambeer), Ian Livingstone (Founder, Games Workshop), Allan Cudico (Founder, Twin Drums), Chella Ramanan (Founder, 3-Fold Games)
 
 # Overview
 Business advice and takeaways from industry luminaries and some of the most promising up-and-coming developers: how the business of video games has evolved since 2002 - and where it is heading next. 
 
-# Big Changes during 20 years
+# The Biggest Changes in the Games Industry in the Last 20 Years
 1. From Retail to Digital Distribution 
 2. Democratisation of development with more available game engines
 3. The rise of indie games & Self-publishing: more diversity
