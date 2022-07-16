@@ -36,4 +36,4 @@ Business advice and takeaways from industry luminaries and some of the most prom
 17. Respect your audience and engage with them, allow them to criticise you if you're not doing the right thing. - Noirin Carmody
 18. Always keep an eye out on the scope of the project, because it's definitely going to get out of hand. - James Batchelor
 
-_Note: missing 2 speakers as they couldn't turn up_
+_(Note: missing 2 speakers as they couldn't turn up)_
