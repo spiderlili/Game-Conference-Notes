@@ -82,4 +82,102 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Vertex-bound on GPU capture
   - Processing > 3 million verts in certain track positions 
 
-https://reattendance.com/event-lobby/5884/session-stage
+## Benchmarking Testbed
+- [Unity's SRP Batcher Benchmark](https://github.com/Unity-Technologies/SRPBatcherBenchmark)
+- Rapid iteration
+- Bottom up
+- Generate grid of primitives
+  - GameObject.CreatePrimitive() in edit-mode
+  - Specify maximum number verts-processed 
+- Keep adding primitives until bottlenecked
+  - Back off a bit from threshold 
+- Don't want to tax the CPU / GPU on mobile
+  - Power drain: avoid thermal throttling 
+- Profile along the way to understand costs
+  - Testbed captures are fast 
+- Empirical observation
+- On-screen debug diagnostics
+
+## DOTS Hybrid Renderer
+- Integrate Hybrid Renderer into testbed
+- Add Subscenes with different use-cases
+- Converts MeshRenderers & MeshFilters to DOTS RenderMesh components
+- Use BatchRenderGroup
+  - Passes OnPerformanceCulling() callback
+  - real-world example 
+- Performs view-frustum culling & LOD selection on CPU
+  - Sets results into BatchCullingContext.VisibleIndices 
+- Wants to extend culling to support "remove hidden surfaces" to reduce vert processing
+
+## Offline visibility Capture
+- Generate "a priori" visibility map offline using track-spline
+- Add unique ID to each MeshRenderer / RendererMesh
+  - PreVisibilityIndex / VisibilityId 
+- Discretize track spline(s) into sections
+- Perform track walk by stepping camera along spline
+- Sample number of visible pixels for each draw call
+- Record results of visible RenderMesh instances into per-section visibility bitmask
+- Logically "Or" bitmasks together for all camera samples in a given section
+- Create Visibility_XXX.unity for each track
+- References source level track geometry assets: same Subscenes referenced by in-game Scenes
+- Used occlusion queries for previous projects: no obvious way to get this approach working in Unity
+- Roll your own based on [picking hack from OpenGL days](http://www.opengl-tutorial.org/miscellaneous/clicking-on-objects/picking-with-an-opengl-hack/)
+  - Encode id into unlit color value in fragment shader
+  - Read pixels from frame buffer, build histogram of visible pixels for each id 
+- Swap materials at runtime before capture
+  - Replace in-game material with simple unlit shader: URPUnlitShader_LD.shader 
+
+## Offline visibility Capture Tool
+- Capture runs in play-mode in Custom Editor Window
+- Performs multiple laps in different lanes: left / center / right
+- Performs multiple laps on each track: 
+  - forward / back / left / right facing angles
+  - Records results to different bitmasks
+- Writes results to VisibilityDatabase for runtime access 
+  - VisibilityDatabase_XXX: ScriptableObject with U64 bitmask encoding
+- Supports batch captures of multiple tracks
+
+### Offline Visibility Capture Issues
+- Capture resolution & aspect ratio of game window: 1080 at 16:9
+- Texture2D Properties: FilterMode.Point, TextureFormat.RGB24, Linear space
+- Previous captures can become out-of-date when source MeshRenderers are changed
+  - globally disable visibility culling at runtime 
+- Shadow pass
+- Copute shader for histogram calcs
+
+### Native lightweight perf timers
+- PlayerLoop CPU Time
+- Record Time
+- Time-to-Present
+- GPU Time
+
+### Perf Timer Validation
+- Echo device display in Quicktime player
+- Capture video alongside XCode debug gauges
+
+### Automated Perf Test Fraework
+- Historical results across multiple devices
+- Can track performance improvements / regressions overtime
+
+# Automated Performance Monitoring
+## Why automate performance monitoring?
+- Testing Time
+  - Maps x Devices x Game Modes x ... = Huge quantity of Test Cases
+  - A few minutes per map adds up quickly
+  - Multiplayer testing requires many team members 
+- Cycle Time: faster feedback to the team.
+- Problems are generally cheaper to fix earlier
+- Confidence: for the team, leadership, clients, partners during development, release, updates.
+- Hands-free: automation doesn't keep office hours, distributed teams need coverage
+- Find out performance impacts & reduce expensive risks
+
+## How to Automate performance monitoring?
+- Build & Test Systems
+- Coordinator: TeamCity, Jenkins, CircleCI, etc
+- Agents: building & testing
+- Devices: mobile, desktop, networked
+- Lots of wires
+- Good USB hubs
+- Unity Test Runner
+- Unreal Automation System
+- ios-deploy
