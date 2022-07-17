@@ -53,7 +53,7 @@ _"Because they represent heroes, male and female avatars will often exhibit exag
   - _"Welcome to the big screens!" says Apple and women like me with small hands who needs the most secure phone for safety reasons are stuck with something they can't hold and constantly risk dropping. Company that designs $5 billion headquarters without a childcare center for the win. - Zeynep Tufekci_
   - What's considered "Standard Size" should account for all their customers.
   - [Amazon's hiring AI is biased against women and they had to get rid of the program in 2018](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G)
-  - On Github: women's contributions are rated higher and accepted more often then men, unless their gender was known - it drops by 20%. _Source: Peer Reviewed: Gender Differences and Bias in Open Source: Pull Request Acceptance of Women Versus Men (2017)_
+  - On Github: women's contributions are rated higher and accepted more often then men, unless their gender was known - it drops by 20%. [_Source: Peer Reviewed: Gender Differences and Bias in Open Source: Pull Request Acceptance of Women Versus Men (2017)_](https://peerj.com/articles/cs-111/)
   - Black people were facing racial discrimination on Zoom meetings through "ZoomBombing" decapitation due to their skin color not being recognised.
   - US government tests find even top-performing facial recognition systems misidentify Black people at rates 5 - 10 times higher than they do Caucasian people, which resulted in people being mistakenly put in prison.
 - Clear the barriers & dispel the myths: 
