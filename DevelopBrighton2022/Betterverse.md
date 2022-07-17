@@ -24,11 +24,11 @@ _"Because they represent heroes, male and female avatars will often exhibit exag
 - Long, thick hair
 
 ### Female
+- Show signs of sexual receptivity
 - Large breasts (high on chest)
 - Slim waist
-- Round bottomss
+- Round bottoms
 - Long, thick hair
-- Show signs of sexual receptivity
 
 #### Second Life: Anshe Chung
 - [Anshe Chung](http://anshechung.com/) made a lot of money in virtual real estate, Business Week put her on the cover.
