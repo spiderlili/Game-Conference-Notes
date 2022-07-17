@@ -1,4 +1,5 @@
-[Speaker: Caitlin Goodale](https://caitlingoodale.com/)
+[Speaker: Caitlin Goodale, Drest](https://caitlingoodale.com/) 
+
 [Presenstation Deck](https://docs.google.com/presentation/d/1syhE99oW8UBtYZN8CrVwhm5N1ktQOKg4w1TxCZcHLK8/edit?usp=sharing)
 
 # Overview
