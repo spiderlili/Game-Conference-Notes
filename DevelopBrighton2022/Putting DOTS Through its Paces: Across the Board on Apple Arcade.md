@@ -8,4 +8,17 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Overview of an internally developed offline visibility culling system for reducing vertex bandwidth
 - Overview of the performance reporting system that was utilised to ensure the release of a high-quality and high-performance title across the board of target devices on the Apple platform
 
+# ECS 
+- Entity worlds are load in place
+- Archetype: a unique set of component types
+- Chunks: entities of the same archetype are stored in chunks
+- Chunks are 16 kilobytes in size
+- Changing an Entity's Archetype is slow (structural change)
+- Editor integration is poor (.e.g. can't click on an objet in scene view)
+- Entity Debugger takes some acclimatisation
+
+# Job System
+- Race condition detection built-in
+- cont: 933
+
 https://reattendance.com/event-lobby/5884/session-stage
