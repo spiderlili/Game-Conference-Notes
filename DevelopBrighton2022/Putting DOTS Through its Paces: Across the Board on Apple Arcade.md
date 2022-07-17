@@ -37,7 +37,49 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Can filter collisions to clean up response when things do get janky
 - Had to reverse engineer DynamicsWorld code to get vehicle handling to fit cleanly
 
-# Should I use DOTS in my production game?
+# When NOT to use DOTS in your production game?
+- Don't know what the game is
+- Don't have a realistic budget & schedule
+- Don't have CPU performance challenges
 - cont: 1500
+
+# DOTS Physics Bullet Time
+- Cinematic slow-motion effect during crash sequence
+  - Ease-in / ease0out target time scale 
+- [StepPhysicsWorld.cs](https://docs.unity3d.com/Packages/com.unity.physics@0.0/api/Unity.Physics.Systems.StepPhysicsWorld.html)
+  - Scale delta-time passed to physics step 
+- Time.timeScale needed for set-piece animation playback & VFX
+
+## Scalable Performance
+- Update / Render / GPU Work
+- Multi-core desktop CPU vs dual-core mobile CPU
+- Great big balancing act
+- [iOS Benchmarks](https://browser.geekbench.com/ios-benchmarks)
+
+## Rendering Quality Levels
+- Dial down visuals on low end
+  - Single shadow pass 
+- Increase graphics fidelity on high-end
+  - Additional lights
+  - Post-processing
+  - HDR 
+- Advanced
+  - [SRP Batcher: Speed Up Your Rendering](https://blog.unity.com/technology/srp-batcher-speed-up-your-rendering) 
+    - Tick-box in URP Settings: Experimental API, DOTS Hybrid Renderer only
+    - Persistent cmd-buffer: next-gen rendering engine
+    - Instancing support
+    - [BatchRenderGroup.AddBatch](https://docs.unity3d.com/ScriptReference/Rendering.BatchRendererGroup.AddBatch.html)
+    - [BatchRendererGroup](https://docs.unity3d.com/ScriptReference/Rendering.BatchRendererGroup.html)
+
+## Performance tuning
+- [Optimizing graphics rendering in Unity games](https://learn.unity.com/tutorial/fixing-performance-problems-2019-3-1#5e85bbb0edbc2a08897d4839)
+- Min-spec: iPad Mini 4th gen (Metal support)
+- CPU Profiler looked tight but within reason
+- Job heavy on dual-core mobile CPUs
+  - Thread contention 
+- Better rendering perf w/o Graphics Jobs
+  - Trace stabilized after disabling 
+- Vertex-bound on GPU capture
+  - Processing > 3 million verts in certain track positions 
 
 https://reattendance.com/event-lobby/5884/session-stage
