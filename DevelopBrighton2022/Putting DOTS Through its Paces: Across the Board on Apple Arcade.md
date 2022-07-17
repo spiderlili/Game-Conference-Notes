@@ -19,6 +19,25 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 
 # Job System
 - Race condition detection built-in
-- cont: 933
+- Correct use of memory access semanics leads to better parallelisation
+- Scales nicely with higher core counts
+- Watch out for thread contention on lower core counts as can starve job manager (.e.g. FMOD camping out on a core)
+- Hoop jumping to get debug rendering
+- No console logging from Burst Compiled jobs
+- No asserts from Burst Compiled jobs
+
+# DOTS Physics
+- Stateless
+- Deterministic
+- Elegant
+- Fast
+- No sleeping: all dynamic bodies simulate every step of the physics world
+- Struggles with gnarly collision meshes
+  - Weld verts & keep meshes watertight where possible 
+- Can filter collisions to clean up response when things do get janky
+- Had to reverse engineer DynamicsWorld code to get vehicle handling to fit cleanly
+
+# Should I use DOTS in my production game?
+- cont: 1500
 
 https://reattendance.com/event-lobby/5884/session-stage
