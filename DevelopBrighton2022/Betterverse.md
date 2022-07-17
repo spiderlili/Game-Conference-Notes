@@ -12,7 +12,6 @@ The world we live in, both physical and digital, is built on cultural and societ
 - Assassin's Creed Unity (2014): [Ubisoft abandoned women assassins in co-op because of additional work](https://www.polygon.com/e3-2014/2014/6/10/5798592/assassins-creed-unity-female-assassins#:~:text=Share%20All%20sharing%20options%20for,because%20of%20the%20additional%20work&text=Assassin's%20Creed%20Unity's%20four%2Dplayer,Polygon%20during%20a%20recent%20interview.)
 - [Hearthstone tournament explains why women aren't allowed to play (2014)](https://www.pcgamer.com/hearthstone-tournament/)
 - [Atlanta FaZe Esports Team face backlash for blatant misogyny (2022)](https://www.thegamer.com/faze-clan-members-face-backlash-blatant-misogyny/)
-[cont: 0455]
 
 ## Making A Hero
 _"Because they represent heroes, male and female avatars will often exhibit exaggerated physical signals of youth, strength, and fertility / virility." - Sheri Graner Ray, [Gender Inclusive Game Design](https://www.amazon.co.uk/Gender-Inclusive-Game-Design-Development/dp/1584502398)_
@@ -65,4 +64,4 @@ _"Because they represent heroes, male and female avatars will often exhibit exag
 - Curate the community:
   - The curation should not favour profit over people.
   - Protect vulnerable groups online.
-  - We have all the ingredients needed to do it well.
+  - We have all the ingredients needed to do it well. Invest in community curation.
