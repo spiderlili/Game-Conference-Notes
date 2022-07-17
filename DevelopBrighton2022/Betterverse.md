@@ -16,20 +16,6 @@ The world we live in, both physical and digital, is built on cultural and societ
 ## Making A Hero
 _"Because they represent heroes, male and female avatars will often exhibit exaggerated physical signals of youth, strength, and fertility / virility." - Sheri Graner Ray, [Gender Inclusive Game Design](https://www.amazon.co.uk/Gender-Inclusive-Game-Design-Development/dp/1584502398)_
 
-### Male
-- Large shoulders
-- Slim waist
-- Slim hips
-- Large arms
-- Long, thick hair
-
-### Female
-- Show signs of sexual receptivity
-- Large breasts (high on chest)
-- Slim waist
-- Round bottoms
-- Long, thick hair
-
 #### Second Life: Anshe Chung
 - [Anshe Chung](http://anshechung.com/) made a lot of money in virtual real estate, Business Week put her on the cover.
 - Her interview was disrupted by flying animated penises when she appeared in a talk show.
