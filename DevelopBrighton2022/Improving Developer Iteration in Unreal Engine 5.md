@@ -38,7 +38,7 @@ One obvious way to improve iteration is to just keep throwing hardware at the pr
 
 ## First line of defence: DDC (Derived Data Cache)
 - Read Content => DDC Key
-- hash (.uasset) + hash (Editor Configuration: ini. Files, Asset version, Code version) = DDC Key
+- hash (.uasset) + hash (Editor Configuration: ini. Files, Asset version, Code version) = DDC Key - "Virtual Assets"
 - Before Build Editor Data: Data is NOT in the cache
 - Build Editor Data => DDC => Ready to iterate in Unreal Engine
 
@@ -53,7 +53,82 @@ One obvious way to improve iteration is to just keep throwing hardware at the pr
     - Project 1 <=> Local DDC
     - Project 2 <=> Local DDC
     - Project 3 <=> Local DDC
-- 
+- Local Shared DDC: Don't build what you have already built on this workstation
+  - Better: bare minimum you should have, but still not great. At least you share between your projects! 
+    - Project 1, Project 2, Project 3 <=> Local Shared DDC 
+- Team Shared DDC: Don't build what someone else has already built in your team
+  - Hopefully this is how most teams have set up their DDC  
+    - Dev1 (Local Shared DDC), Dev2 (Local Shared DDC), Dev3 (Local Shared DDC) <=> On-Prem Share (Team Shared DDC) 
 
+## Team Shared DDC
+- Doesn't work well in the modern world
+- Today's teams are widely distributed & many people work from home, this does not scale.
+- Team Shared DDC efficiency affected by network conditions
+  - Developer bandwidth
+  - Distance of developer to network share
+  - VPN Bandswidth / latency 
 
-https://reattendance.com/event-lobby/5884/schedule
+## Horde Storage: Cloud Based Global DDC
+- Hosted in the cloud
+- Split into multiple regions
+- Replicated between regions
+- Get your data close to your developers
+- Flexible & configurable
+- No VPN latency
+- Ready to Iterate time > 2x faster
+
+### Horde Storage Key Features
+- Compatible with Amazon S3 & Microsoft Azure
+- General CAS (Content Addressable Store)
+- Active & passive replication between regional instances
+- OIDC login & authentication
+- Transient & permanent storage
+- Garbage Collection
+
+### Horde Storage Case Studies
+- Fortnite: Sync Time reduced from 73 min to 29 min (2.5x faster). Virtualized Textures, Static Meshes & Sound Waves are 3.5x smaller.
+  - Note: Static Mesh saving will increase with the uptake of Nanite 
+- Matrix Awakens
+- Lyra
+- Epic internal projects - Amazon S3
+
+## Anatomy of a .uasset
+- Structured data: always needed
+  - Class Data
+  - Structure
+  - Properties 
+- Bulk data: NOT always needed
+  - Representation of the raw source data, .e.g. pixel data
+Solution: Virtual Asset, store Virtual Asset & Payload separately
+
+## Virtual Assets - Faster Syncing: Sync just what you need
+- If you don't need the bulk data: sync less data
+- If you do need the bulk data: sync it on demand
+- If your bulk data is already in the Cloud (.i.e. using Horde Storage): it's way faster to sync it from the Cloud than from Perforce
+
+### Virtual Assets Features
+- Sync faster
+- Smaller disk footprint
+- Deduplicates in the local shared DDC
+- Sync from the Global Cloud DDC rather than Perforce
+
+## Build what you must efficiently with Horde Compute
+- UE5 builds much more data in parallel
+- Multi-cores to the rescue: heavy parallelism is great, Unreal will take full advantage of all the cores you have
+- What if we could have lower spec local machines & be more efficient by leveraging resources in the Cloud?
+- Horde Compute is a general purpose reomte build system for UE5
+- It can run jobs on local desktops, dedicated physical hardware or in the cloud
+- In the future: you will no longer require costly local developer hardware to build efficiently
+
+## DDB (Derived Data Build)
+- A new architecture for UE5 that allows data to be built in process or out of process
+- A DDB Command is a struct that contains the arguments, a build function key, a set of build input keys & a set of output keys.
+- Build function & all inputs are read from DDC
+- Outputs are stored in the DDC with the output keys
+- Still supports the massively parallel local build model but opens the door to remote building too
+
+## Future Improvements in the works
+- Async Editor Load
+- Multi-process Cook
+- Hybrid Iterative Cook
+- Cook on the Fly 2.0
