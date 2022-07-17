@@ -1,2 +1,2 @@
-# Game-Talks
-Presentation Notes for Develop:Brighton 2022
+# Game Conference Talks
+Collection of conference notes at Develop:Brighton 2022
