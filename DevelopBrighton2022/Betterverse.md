@@ -1,7 +1,7 @@
 Speaker: [Brenda Romero, CEO at Romero Games](http://brenda.games/)
 
 # Overview
-The world we live in, both physical and digital, is built on cultural and societal considerations. These considerations shape the metaverse and the possibility space of what it can become. Who determines what those considerations are? What gets left out, and what gets brought in? Our metaverses are mirrors of their creators. This time time, let's do it right.
+The world we live in, both physical and digital, is built on cultural and societal considerations. These considerations shape the metaverse and the possibility space of what it can become. Who determines what those considerations are? What gets left out, and what gets brought in? Our metaverses are mirrors of their creators. The first time of metaverse was not good for many people, This time time, let's do it right.
 
 ## Cyber Space & the Big Problem
 - The term "Cyber Space" was original coined by William Gibson in 1982, he greatly expands on it in Neuromancer in 1984. He warned us about the dark side of AI going wrong.
@@ -48,7 +48,8 @@ _"Because they represent heroes, male and female avatars will often exhibit exag
 - Life is Strange
 
 # How do we build a betterverse?
-- Diversify the makers: women are less than a third of tech workers. Of those tech workers, only a fifth are in leadership positions. The results of this are non-trivial to our health, wellbeing, education, enjoyment and success. 
+- Diversify the makers: 
+  - women are less than a third of tech workers. Of those tech workers, only a fifth are in leadership positions. The results of this are non-trivial to our health, wellbeing, education, enjoyment and success. 
   - Hand sizes do matter: adult female (length: 17.2cm, width: 7.4cm) vs adult male (length: 18.9cm, width: 8.4cm), Apple discontinued the phone that fits the best in a woman's hand (iPhone SE) in 2018. While this looks great in marketing, the reality is it's easier to play on smaller phones if you have a woman's hands. Designing for the biggest mobile screen possible is actually leaving some people out.
   - _"Welcome to the big screens!" says Apple and women like me with small hands who needs the most secure phone for safety reasons are stuck with something they can't hold and constantly risk dropping. Company that designs $5 billion headquarters without a childcare center for the win. - Zeynep Tufekci_
   - What's considered "Standard Size" should account for all their customers.
@@ -56,6 +57,12 @@ _"Because they represent heroes, male and female avatars will often exhibit exag
   - On Github: women's contributions are rated higher and accepted more often then men, unless their gender was known - it drops by 20%. _Source: Peer Reviewed: Gender Differences and Bias in Open Source: Pull Request Acceptance of Women Versus Men (2017)_
   - Black people were facing racial discrimination on Zoom meetings through "ZoomBombing" decapitation due to their skin color not being recognised.
   - US government tests find even top-performing facial recognition systems misidentify Black people at rates 5 - 10 times higher than they do Caucasian people, which resulted in people being mistakenly put in prison.
-- Clear the barriers & dispel the myths: Make sure we have the most well-rounded team possible, because study after study shows diverse teams make better products. 
-
-https://reattendance.com/event-lobby/5884/session-stage
+- Clear the barriers & dispel the myths: 
+  - Make sure we have the most well-rounded team possible, because study after study shows diverse teams make better products. 
+  - "Women don't play video games": Women in the US own more consoles (Xbox / PlayStation) than men.
+  - "Girls aren't good at maths and IT": At one point in time, programming jobs were advertised to women specifically and they were the majority of programmers, because they required menial, detail-oriented labour. IBM UK measured the manufacturing of computers in “girl hours” (which were less expensive than “man hours”) until the 1970s. The ZX Spectrum computer was entirely built by women. As the importance of computers started to go up, the pay started to go up. Men were uncomfortable with being trained by women. _Source: Programmed Inequality: How Britain Discarded Women Technologists and Lost its Edge in Computing, Marie Hicks_ 
+  - Women built the foundation of metaverse, games and Computer Science: Kateryna Yushchenko (Pointers), Kathleen Booth (Assembly), Margaret Hamilton, Lois Mitchell, Melba Roy, Sister Mary Kenneth Keller, Alexandra Illmer Forsythe, Dona Bailey, Roberta Williams, Dani Berry
+- Curate the community:
+  - The curation should not favour profit over people.
+  - Protect vulnerable groups online.
+  - We have all the ingredients needed to do it well.
