@@ -3,9 +3,9 @@ Speaker: [Brenda Romero, CEO at Romero Games](http://brenda.games/)
 # Overview
 The world we live in, both physical and digital, is built on cultural and societal considerations. These considerations shape the metaverse and the possibility space of what it can become. Who determines what those considerations are? What gets left out, and what gets brought in? Our metaverses are mirrors of their creators. The first time of metaverse was not good for many people, This time time, let's do it right.
 
-## Cyber Space & the Big Problem
+## Cyber Space & The Big Problem
 - The term "Cyber Space" was original coined by William Gibson in 1982, he greatly expands on it in Neuromancer in 1984. He warned us about the dark side of AI going wrong.
-- The big problem: didn't get to play as a female character until 1987 [(Leather Goddesses of Phobos)](https://en.wikipedia.org/wiki/Leather_Goddesses_of_Phobos), while the first digital game goes back to 1954. Nothing says you don't belong in my metaverse like not being able to choose to play as yourself. Even our most iconic characters like Princess Peach needs to be rescued. 
+- The big problem: we didn't get to play as a female character until 1987 [(Leather Goddesses of Phobos)](https://en.wikipedia.org/wiki/Leather_Goddesses_of_Phobos), while the first digital game goes back to 1954. Nothing says you don't belong in my metaverse like not being able to choose to play as yourself. Even our most iconic characters like Princess Peach needs to be rescued. 
 - In the original Sims: gay characters can't marry or even fall in love.
 - Blizzard administrators forced a queer-friendly guild in World of Warcraft to change its name from "GAY BOYS" to "Guild ZFXPK", a random string of letters chosen by an algorithm. The gay community responded with a gay cruise, which was the first civil rights protest in a virtual world.
 - Rockstar's [Bully](https://www.rockstargames.com/games/bully) was massively controversial because guys could kiss.
@@ -14,7 +14,7 @@ The world we live in, both physical and digital, is built on cultural and societ
 - [Atlanta FaZe Esports Team face backlash for blatant misogyny (2022)](https://www.thegamer.com/faze-clan-members-face-backlash-blatant-misogyny/)
 [cont: 0455]
 
-## Making a hero
+## Making A Hero
 _"Because they represent heroes, male and female avatars will often exhibit exaggerated physical signals of youth, strength, and fertility / virility." - Sheri Graner Ray, [Gender Inclusive Game Design](https://www.amazon.co.uk/Gender-Inclusive-Game-Design-Development/dp/1584502398)_
 
 ### Male
