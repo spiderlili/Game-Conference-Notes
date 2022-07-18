@@ -17,7 +17,7 @@ The world we live in, both physical and digital, is built on cultural and societ
 _"Because they represent heroes, male and female avatars will often exhibit exaggerated physical signals of youth, strength, and fertility / virility." - Sheri Graner Ray, [Gender Inclusive Game Design](https://www.amazon.co.uk/Gender-Inclusive-Game-Design-Development/dp/1584502398)_
 
 ### Second Life: Anshe Chung
-- [Anshe Chung](http://anshechung.com/) made a lot of money in virtual real estate, Business Week put her on the cover.
+- [Anshe Chung](http://anshechung.com/) made a lot of money in virtual real estate, she was featured on Business Week's cover.
 - Her interview was disrupted by flying animated penises when she appeared in a talk show.
 
 ### The Brown Slider
