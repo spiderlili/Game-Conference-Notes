@@ -7,6 +7,9 @@ Collection of conference notes at Develop:Brighton 2022
 
 ### Art / Tech Art
 - Developing Technical Skills to Increase Your Creativity
+- 'Just Houdini It': Using Houdini Effectively for Game Development
+- Building AAA Environments at Scale
+- The Real-Time Volumetric Superstorms of Horizon Forbidden West
 - The Future of Fashion in Games
 - Weird Things That Help for the Creative (but noisy) Brain: ADHD City
 
