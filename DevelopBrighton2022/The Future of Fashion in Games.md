@@ -12,6 +12,7 @@
 - Fashion is something we all engage with - in our real lives, and in games. From choosing our outfits for a conference, to buying skins in game. For some of us it's a means to an end, for others it's a passion and a reason to play.
 - The worlds of fashion and games are colliding, from luxury brand partnerships to fashion consultants working with teams to build inclusive outfits. The fact is, fashion has relevance (and lucrative opportunities!) no matter the sort of game you're building.
 - In [Drest](https://drest.com/): players use luxury fashion to dress up models based on briefs from industry fashion editors, then other players vote on their style. 
+- [Shining Nikki](https://nikki4.playpapergames.com/m/home): Next-gen dress up game
 - Digital self-representation is increasingly important as we live more of our lives in augmented realities. Whether it's becoming an anime catgirl in 
 VRChat, or a Snapcam filter on Zoom, digital worlds are safe spaces to explore our identities - and fashion comes along with that.
 - Brand partnerships can be a great way to bring the fantasy of fashion to your players when you prioritise a meaningful player experience.
