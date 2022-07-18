@@ -20,3 +20,6 @@
 # preforming within a reasonable budget on PS5 & PS4 hardware
 
 # How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
+
+# Related Talks
+- [SIGGRAPH 2022 - Nubis, Evolved: Real-Time Volumetric Clouds for Skies, Environments, and VFX](https://t.co/a3YHUMPlsw)
