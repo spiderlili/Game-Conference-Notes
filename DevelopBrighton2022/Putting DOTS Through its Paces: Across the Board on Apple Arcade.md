@@ -41,7 +41,6 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Don't know what the game is
 - Don't have a realistic budget & schedule
 - Don't have CPU performance challenges
-- cont: 1500
 
 # DOTS Physics Bullet Time
 - Cinematic slow-motion effect during crash sequence
