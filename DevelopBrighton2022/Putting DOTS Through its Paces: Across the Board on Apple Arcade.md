@@ -1,7 +1,7 @@
 Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (AlphaBlit)
 
 # Overview
-- Co-developing 'Detonation Racing' for Apple Arcade
+- Co-developing ['Detonation Racing'](https://apps.apple.com/us/app/detonation-racing/id1477484840) for Apple Arcade
 - Using the DOTS architecture in Unity to develop a scalable system that played to the strengths of a wide range of device capabilities
 - Vehicle handling implementation using the DOTS physics engine 
 - How to leverage variable time-steps to support non-interactive sequences during gameplay
