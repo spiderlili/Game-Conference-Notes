@@ -15,5 +15,6 @@ Collection of conference notes at Develop:Brighton 2022
 
 ### Design / Business
 - [20 Lessons from 20 Years: how the business of video games has evolved since 2002](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/20%20Lessons%20from%2020%20Years.md)
-- [The Dark Pictures Anthology: Crafting Interactive Narrative Games](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/The%20Dark%20Pictures%20Anthology:%20Crafting%20Interactive%20Narrative%20Games.md)
 - [Betterverse](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Betterverse.md)
+- [The Dark Pictures Anthology: Crafting Interactive Narrative Games](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/The%20Dark%20Pictures%20Anthology:%20Crafting%20Interactive%20Narrative%20Games.md)
+
