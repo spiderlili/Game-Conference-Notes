@@ -69,7 +69,10 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
     - Instancing support
     - [BatchRenderGroup.AddBatch](https://docs.unity3d.com/ScriptReference/Rendering.BatchRendererGroup.AddBatch.html)
     - [BatchRendererGroup](https://docs.unity3d.com/ScriptReference/Rendering.BatchRendererGroup.html)
-
+- Graphics Jobs are project-side setting: need to conditionally disable Graphics Jobs
+  - Inject cmd-line arg to UnityPlayer
+  - -force-gfx-mt
+ 
 ## Performance tuning
 - [Optimizing graphics rendering in Unity games](https://learn.unity.com/tutorial/fixing-performance-problems-2019-3-1#5e85bbb0edbc2a08897d4839)
 - Min-spec: iPad Mini 4th gen (Metal support)
@@ -144,11 +147,31 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Shadow pass
 - Copute shader for histogram calcs
 
+## Runtime Visibility Culling
+- Discard draw calls that don't contribute to the final frame buffer
+- Extend Hybrid Renderer culling system to include additional "visibility culling" data
+  - Plumbed into HybridChunkCullingData ECS Component
+- Perform constant time lookup() of visibility maps
+  - Based on player camera position & facing angle
+  - Forward / Backward, Left / Right 
+- Writes up-to-date visibility info each frame
+  - Copies data from visibility bitmask into culling info
+  - Runs before Hybrid Renderer System
+  - does not require structural changes to ECS
+  - scene graph
+- Hybrid Renderer skips view-frustum-culling for non-visible instances
+- Disable when camera strays too far from track surface 
+
 ### Native lightweight perf timers
 - PlayerLoop CPU Time
-- Record Time
+  - Finish UnityPlayerLoop() - start UnityPlayerLoop() 
+- Render Time
+  - PresentMTL() - StartFrameRenderingMTL() 
 - Time-to-Present
+  - PresentMTL() - start UnityPlayerLoop() 
 - GPU Time
+  - GPUEndTime - GPUStartTime
+  - does not work with graphics jobs!
 
 ### Perf Timer Validation
 - Echo device display in Quicktime player
@@ -159,6 +182,9 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Can track performance improvements / regressions overtime
 
 # Automated Performance Monitoring
+- Historical results across multiple devices
+- Can track performance improvements / regressions over time
+
 ## Why automate performance monitoring?
 - Testing Time
   - Maps x Devices x Game Modes x ... = Huge quantity of Test Cases
@@ -169,6 +195,8 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Confidence: for the team, leadership, clients, partners during development, release, updates.
 - Hands-free: automation doesn't keep office hours, distributed teams need coverage
 - Find out performance impacts & reduce expensive risks
+- Can take the tools with you beyond a single project: familiar concepts & implementations, easier to pitch with proven code & results.
+  - Ready to go, even before the game
 
 ## How to Automate performance monitoring?
 - Build & Test Systems
@@ -177,6 +205,20 @@ Speakers: Sam Royall (Electric Square), Neil Hutchison (AlphaBlit), Matt Rubin (
 - Devices: mobile, desktop, networked
 - Lots of wires
 - Good USB hubs
-- Unity Test Runner
-- Unreal Automation System
+- [Unity Test Runner](https://docs.unity3d.com/2017.4/Documentation/Manual/testing-editortestsrunner.html)
+- [Unreal Automation System](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/Automation/)
 - ios-deploy
+
+# Performance Monitoring in Detonation Racing
+- Context is important: data needs context to interpret
+- Why requires where & when
+- Big events in the game, like strikes / crashes are important
+
+## What else can you automatically test?
+- Customisation
+- User settings
+- Specific Device configurations
+- Shader Warmup
+- Load Times
+- Front End
+- New platforms / devices / metrics / reports
