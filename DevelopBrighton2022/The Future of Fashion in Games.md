@@ -32,7 +32,7 @@ VRChat, or a Snapcam filter on Zoom, digital worlds are safe spaces to explore o
 # What about the metaverse, NFTs etc?
 - Currently, the Fashion industry is largely pro-NFT while the majority of game developers have no interest in NFTs[(_Source: State Of The Game Industry 2022 survey’s findings_)](https://kotaku.com/nft-crypto-cryptocurrency-blockchain-gdc-video-games-de-1848407959)
 - Strategy will depend on platform, infrastructure and userbase: IP holders _MAY_ introduce transferable items in the future if there's a monetary and player experience benefit.
-- Fashion in games is meaningful for us all, no matter what NFTs and the metaverse become. It can be a massive benefit to your player experience- fashion is here to stay!
+- Fashion in games is meaningful for us all, no matter what NFTs and the metaverse become. It can be a massive benefit to your player experience - fashion is here to stay!
 
 # 4 Important Questions to Ask
 - What role does fashion play in your world?
