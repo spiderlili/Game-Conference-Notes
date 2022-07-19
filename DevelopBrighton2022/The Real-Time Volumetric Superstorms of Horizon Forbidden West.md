@@ -11,7 +11,7 @@
 
 # Nubis: Real-time Volumetric Cloud System
 
-# How o support large tornadic storm systems
+# How to support large tornadic storm systems
 
 # Internal lighting
 
