@@ -17,7 +17,7 @@
 
 # lightning effects and further visual enhancements 
 
-# preforming within a reasonable budget on PS5 & PS4 hardware
+# Performing within a reasonable budget on PS5 & PS4 hardware
 
 # How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
 
