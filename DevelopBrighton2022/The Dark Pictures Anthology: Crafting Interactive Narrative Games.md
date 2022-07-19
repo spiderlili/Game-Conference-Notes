@@ -2,6 +2,7 @@
 
 # Overview
 - The processes that Supermassive Games employs to craft branching narrative adventures
+- The biggest choice of all: Quality <=> Variety
 - Techniques for creating horror in the Dark Pictures Anthology: a series of intense, cinematic horror stories
 - Each title is standalone & examines a different horror subgenre
 - Control a cast of characters: your decisions shape their story
@@ -30,9 +31,6 @@
   - Consequences are responsive
   - Branching is signalled
   - Choices lead to different outcomes 
-
-## The biggest choice of all
-Quality <=> Variety
 
 ## Blocking out your story
 - High concept: create a solid log line
