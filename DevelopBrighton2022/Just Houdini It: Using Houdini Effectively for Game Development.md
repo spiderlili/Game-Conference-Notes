@@ -7,7 +7,7 @@ Speaker: [Sophie van den Boomen, PlayStation](https://www.linkedin.com/in/sophie
 - Where are the best places to use Houdini in game projects
 - Common misconceptions about Houdini & consequences of how this leads to problems
 
-### Possibilities of Houdini for procedural generation & as a pipeline tool
+## Possibilities of Houdini for procedural generation & as a pipeline tool
 - Placement & Scatter
   - Foliage
   - Pick-ups 
@@ -25,11 +25,14 @@ Speaker: [Sophie van den Boomen, PlayStation](https://www.linkedin.com/in/sophie
 - Pipelines
   - Automating LODs
   - Batch Exporting 
+  - Culling assets
+  - [PDG](https://www.sidefx.com/products/pdg/)
 - VFX
   - Destruction
   - Water 
+- And more...
 
-### Common Misconceptions
+## Common Misconceptions
 - Houdini is for Realtimme Generation
 - "Just Houdini it" for everything: tunnel vision
 - Magic performance: Houdini = Good Performance
@@ -50,4 +53,33 @@ Speaker: [Sophie van den Boomen, PlayStation](https://www.linkedin.com/in/sophie
 - Level of Control: user, parameters
 - Visual Guideline: sketch, concept, example
 
-### How to effectively communicate about potential tool requests, goals & scope
+## Example: Procedurally-generated trees
+1. Problem definition
+  - Effectively communicate about potential tool requests, goals & scope
+3. Research
+  - Investigate pain points
+  - User analysis table: User (Artist / Technical Artist / Programmer), Expressiveness, Learning Curve, Responsiveness (Low - High)
+  - 
+4. Input / Output: artist's asset (leave texture) + automatically placed leaves along branches  
+5. Devloping
+6. Testing
+
+## What could go wrong?
+- Open-ended 
+- Planning
+- Feature creep
+- No feedback
+
+## Tips
+- Standards / guidelines
+  - Naming
+  - Versioning
+  - Documenting: Node Color Conventions, User Guides, To-do lists, etc 
+- Tool Breakdown
+  - Small reusable tools
+  - Collaboration 
+- Tool Reviews
+  - User & tech review
+  - When?
+- Research time
+  - Importance of learning & development
