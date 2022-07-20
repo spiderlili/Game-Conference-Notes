@@ -5,7 +5,7 @@ Collection of conference notes taken at [Develop:Brighton 2022](https://www.deve
 - [Across the Board on Apple Arcade: Putting DOTS Through its Paces](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Putting%20DOTS%20Through%20its%20Paces:%20Across%20the%20Board%20on%20Apple%20Arcade.md)
 - [Improving Developer Iteration in Unreal Engine 5](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Improving%20Developer%20Iteration%20in%20Unreal%20Engine%205.md)
 
-### Art / Tech Art
+### Creative / Tech Art
 - [Developing Technical Skills to Increase Your Creativity](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Developing%20Technical%20Skills%20to%20Increase%20Your%20Creativity.md)
 - ['Just Houdini It': Using Houdini Effectively for Game Development](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Just%20Houdini%20It:%20Using%20Houdini%20Effectively%20for%20Game%20Development.md)
 - [Building AAA Environments at Scale](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Building%20AAA%20Environments%20at%20Scale.md)
