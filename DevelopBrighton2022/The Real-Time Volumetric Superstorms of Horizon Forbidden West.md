@@ -31,9 +31,43 @@ Use a gradient:
 - Type can then serve as the value that blends between cloud type functions (stratus, stratocumulus, cumulus). 
 - Combine into 1 look up: Vertical Profile Gradient to accelerate / decelerate some of the transitions between types, add some areas with varied intensity to create more variety.
 
-#### Vertical Profile Gradient in practice
+### Vertical Profile Gradient in practice
+- Details on clouds can be categorised into:
+  - Billows: forms when density increases in a given area, pushes water vapor upward & outward
+  - Wisps: forms when density decreases, vapor dissipates & curls around the weight created by turbulent forces
 
-[cont: 0927](https://reattendance.com/event-lobby/5884/session-stage)
+### How to describe the curling & rolling shapes of clouds over 3D space?
+Use 3D noise textures like:
+- Perlin noise: wispy
+- Inverted Worley noise (1 - Worley): billowy
+- Perlin-Worley (2015): combines both Perlin & Worley noise depending on cloud type & height to get the best of both worlds with 1 3D texture sample
+  - Subtract the web-like shapes of Worley noise from the high-density regions of Perlin noise to produce round shapes 
+
+#### The Density Model
+base_cloud_density = remap(lf_noise, 1.0 - hf_noise, 1, 0, 1)
+
+#### The Renderer
+
+### The Lighting Model
+#### Direct Scattering
+Optical Depth(d): T = e ** -d
+- Augustus Beer (1852)
+- J.H Lambert (1760)
+
+#### Ray-March Integration
+
+### Performance
+
+## Superstorms
+- El Reno, OK (2013) visualization, National Center for Supercomputing Applications
+- The Mesocyclone
+  - A column, flat & spread out on bottom
+  - Ragged shapes
+  - Vortex shape / motion 
+- The Anvil Cloud
+  - Above the mesocyclone
+  - Propagation into cirrus layer 
+[cont: 1036](https://reattendance.com/event-lobby/5884/session-stage)
 
 # How to support large tornadic storm systems
 
