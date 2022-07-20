@@ -54,15 +54,11 @@ Speaker: [Sophie van den Boomen, PlayStation](https://www.linkedin.com/in/sophie
 - Visual Guideline: sketch, concept, example
 
 ## Example: Procedurally-generated trees
-1. Problem definition
-  - Effectively communicate about potential tool requests, goals & scope
-3. Research
-  - Investigate pain points
-  - User analysis table: User (Artist / Technical Artist / Programmer), Expressiveness, Learning Curve, Responsiveness (Low - High)
-  - 
-4. Input / Output: artist's asset (leave texture) + automatically placed leaves along branches  
-5. Devloping
-6. Testing
+1. Problem definition: Effectively communicate about potential tool requests, goals & scope
+2. Research: Investigate pain points, User analysis table: User (Artist / Technical Artist / Programmer), Expressiveness, Learning Curve, Responsiveness (Low - High)
+3. Input / Output: artist's asset (leave texture) + automatically placed leaves along branches  
+4. Devloping
+5. Testing
 
 ## What could go wrong?
 - Open-ended 
