@@ -1,5 +1,5 @@
 # Game Conference Talks
-Collection of conference notes at Develop:Brighton 2022
+Collection of conference notes taken at Develop:Brighton 2022
 
 ### Coding
 - [Across the Board on Apple Arcade: Putting DOTS Through its Paces](https://github.com/spiderlili/Game-Conference-Notes/blob/main/DevelopBrighton2022/Putting%20DOTS%20Through%20its%20Paces:%20Across%20the%20Board%20on%20Apple%20Arcade.md)
