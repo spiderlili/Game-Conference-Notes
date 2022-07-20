@@ -65,7 +65,6 @@ Use 3D noise textures like:
 - To fill the sky with clouds: need a system to define a field of cloud coverage & type data over the XY domian of the world so it can be sampled in the nubis renderer.
 - Nubis Data Field Generator is usig a set of noise remap functions & composites: can produce a variety of different cloudscapes.
 
-
 #### The Renderer
 - Construct renders using raymarching: can be used whnever you need to construct an image that contains volumetric objects.
 - Construct density & lighting samples at several points along the view vector & combine them.
