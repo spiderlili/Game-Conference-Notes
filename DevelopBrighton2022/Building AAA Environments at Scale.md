@@ -11,12 +11,6 @@
   - Handling hurdles & unknowns
   - Attaining AAA standards in a short amount of time
 
-# Attaining AAA environment art standards & Potential challenges
-
-# Light production ideas for artists to develop workflows & pipelines
-
-# Creating detail-rich worlds in a short amount of time
-
 # Team structure & culture
 - Team Building
   - Identify what you are looking for in a team
@@ -28,7 +22,7 @@
   - Dedicated Producer for the team
 
 # Project Structure
-1. Concept
-2. Pre-production
-3. Production
-4. Shutdown
+1. Concept: getting the team & disciplines together, investigations, tech requests, exploration
+2. Pre-production: vertical slice, scoped & production, benchmarking at scale (procedural methods)
+3. Production: planning for the unkonwn, taskforces, table of specific dates & tasks of each artist should work on throughout the months, what happens when things go wrong?
+4. Shutdown: polish vs bug fix, bug number targets, play testing, marketing, looking at the next big thing
