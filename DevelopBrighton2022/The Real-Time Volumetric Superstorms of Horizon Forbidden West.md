@@ -57,7 +57,8 @@ Optical Depth(d): T = e ** -d
 #### Ray-March Integration
 
 ### Performance
-
+- Performing within a reasonable budget on PS5 & PS4 hardware
+- How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
 ## Superstorms
 - El Reno, OK (2013) visualization, National Center for Supercomputing Applications
 - The Mesocyclone
@@ -76,10 +77,6 @@ Optical Depth(d): T = e ** -d
 # lightning effects and further visual enhancements 
 - Lightning System: General Position => Trigger Flash Animation
 - Nubis Renderer: receivs flash positino from lightning system's general position, genereate stable mask
-
-# Performing within a reasonable budget on PS5 & PS4 hardware
-
-# How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
 
 # Related Talks & Resources
 - [SIGGRAPH 2022 - Nubis, Evolved: Real-Time Volumetric Clouds for Skies, Environments, and VFX](https://t.co/a3YHUMPlsw)
