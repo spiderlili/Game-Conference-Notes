@@ -7,14 +7,13 @@ Business advice and takeaways from industry luminaries and some of the most prom
 1. From Retail to Digital Distribution 
 2. Democratisation of development with more available game engines
 3. The rise of indie games & Self-publishing: more diversity
-5. Expansion of gaming audience through Mobile Games, Free-to-play, Casual & Social Games
-6. Microtransactions
-7. Live Service games
-8. Online gaming (console / mobile)
-9. Streaming / Cloud gaming
-10. Esports
-11. Early Access
-12. VR / AR / XR / MR
+4. Expansion of gaming audience through Mobile Games, Free-to-play, Casual & Social Games
+5. Live Service games & Microtransactions
+6. Online gaming (console / mobile)
+7. Streaming / Cloud gaming
+8. Esports
+9. Early Access
+10. VR / AR / XR / MR
 
 # What are the biggest Lessons you've learned over the past 20 Years?
 1. More diverse game developers are bringing new perspectives: talk to them & hear what they have to say. Both Juniors and Seniors can learn a lot from each other. - Dinga Bakaba
