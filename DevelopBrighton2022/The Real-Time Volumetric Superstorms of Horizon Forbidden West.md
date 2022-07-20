@@ -32,5 +32,6 @@
 
 # How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
 
-# Related Talks
+# Related Talks & Resources
 - [SIGGRAPH 2022 - Nubis, Evolved: Real-Time Volumetric Clouds for Skies, Environments, and VFX](https://t.co/a3YHUMPlsw)
+- https://www.guerrilla-games.com/read/nubis-realtime-volumetric-cloudscapes-in-a-nutshell
