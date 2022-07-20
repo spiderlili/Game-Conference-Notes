@@ -9,7 +9,18 @@
   - Lightning flashes
   - A solution to render faster moving clouds with temporal upscaling as well as visual enhancements
 
+# Inspirations
+- [Luke Howard, "On the Modification of Clouds" (1802)](https://blogs.bl.uk/science/2020/04/clouds-how-luke-howard-linked-weather-lore-and-natural-philosophy.html) classified clouds by their altitude, basic physical characteristics, and the conditions (amount of water vapor, temperature, weather, changes over altitude, wind, turbulence) that give rise to their development:
+  - Cirrus: Heap / Pile (Latin)
+  - Cumulus: Layer / Sheet (Latin)
+  - Stratus: Hair / Fibre (Latin)
+
 # Nubis: Real-time Volumetric Cloud System
+- Guerrilla's Nubis Cloud System is named after Luke Howard's "nubification": Water vapors in warm layers of air, rises and enters cold air which cuases it to condense on dust particles, rendering it invisible to us
+- Low emission of vapor into cool air produces the wispy stratus clouds that flow over the landscape
+- High emission corresponds to round billowing cumulus clouds that grow higher until they flatten out into a colder layer of air
+- There are multiple layers of air in the atmosphere with differing characteristics that vapor can travel through
+[cont: 0813](https://reattendance.com/event-lobby/5884/session-stage)
 
 # How to support large tornadic storm systems
 
