@@ -23,7 +23,17 @@
 - SIGGRAPH 2015 Advances in Real-Time Rendering Course: 2 probabilities that determines what type & how much of a cloud to draw at a given point:
   - Cloud Coverage: describes the presence of clouds
   - Cloud Type: describes the height of clouds, is it blowy / wispy?
-[cont: 0851](https://reattendance.com/event-lobby/5884/session-stage)
+
+### How to describe the probability & change in density over height for a cloud?
+Use a gradient:
+- Cloud type is determined by the rate of emission & temperature
+- Each cloud type is a different height range => can order a set of gradients according to Cloud type in order to represent the height probabilities for each type of cloud. 
+- Type can then serve as the value that blends between cloud type functions (stratus, stratocumulus, cumulus). 
+- Combine into 1 look up: Vertical Profile Gradient to accelerate / decelerate some of the transitions between types, add some areas with varied intensity to create more variety.
+
+#### Vertical Profile Gradient in practice
+
+[cont: 0927](https://reattendance.com/event-lobby/5884/session-stage)
 
 # How to support large tornadic storm systems
 
