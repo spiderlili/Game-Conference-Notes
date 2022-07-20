@@ -20,7 +20,10 @@
 - Low emission of vapor into cool air produces the wispy stratus clouds that flow over the landscape
 - High emission corresponds to round billowing cumulus clouds that grow higher until they flatten out into a colder layer of air
 - There are multiple layers of air in the atmosphere with differing characteristics that vapor can travel through
-[cont: 0813](https://reattendance.com/event-lobby/5884/session-stage)
+- SIGGRAPH 2015 Advances in Real-Time Rendering Course: 2 probabilities that determines what type & how much of a cloud to draw at a given point:
+  - Cloud Coverage: describes the presence of clouds
+  - Cloud Type: describes the height of clouds, is it blowy / wispy?
+[cont: 0851](https://reattendance.com/event-lobby/5884/session-stage)
 
 # How to support large tornadic storm systems
 
