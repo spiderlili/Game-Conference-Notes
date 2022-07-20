@@ -34,4 +34,6 @@
 
 # Related Talks & Resources
 - [SIGGRAPH 2022 - Nubis, Evolved: Real-Time Volumetric Clouds for Skies, Environments, and VFX](https://t.co/a3YHUMPlsw)
-- https://www.guerrilla-games.com/read/nubis-realtime-volumetric-cloudscapes-in-a-nutshell
+- [Nubis: Realtime Volumetric Cloudscapes In A Nutshell](https://www.guerrilla-games.com/read/nubis-realtime-volumetric-cloudscapes-in-a-nutshell)
+- [Nubis: authoring real-time volumetric cloudscapes with the decima engine](https://www.guerrilla-games.com/read/nubis-authoring-real-time-volumetric-cloudscapes-with-the-decima-engine)
+
