@@ -74,6 +74,8 @@ Optical Depth(d): T = e ** -d
 # Internal lighting
 
 # lightning effects and further visual enhancements 
+Lightning System: General Position => Trigger Flash Animation
+Nubis Renderer: receivs flash positino from lightning system's general position, genereate stable mask
 
 # Performing within a reasonable budget on PS5 & PS4 hardware
 
