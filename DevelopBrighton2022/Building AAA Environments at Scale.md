@@ -23,6 +23,6 @@
 
 # Project Structure
 1. Concept: getting the team & disciplines together, investigations, tech requests, exploration
-2. Pre-production: vertical slice, scoped & production, benchmarking at scale (procedural methods)
+2. Pre-production: vertical slice, scoped & production, benchmarking at scale (procedural methods for foliage, rocks, palettes, etc), keep a close relationship with Technical Art & Lighting departments to help define standards, look at the big picture for big wins
 3. Production: planning for the unkonwn, reviews, table of specific dates & tasks of each artist should work on throughout the months, what happens when things go wrong? triage & prioritise, taskforces for contingencies
 4. Shutdown: split milestones into polish & bug fix, bug number targets, play testing, marketing, looking at the next big thing
