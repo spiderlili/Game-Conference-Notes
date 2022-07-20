@@ -10,10 +10,10 @@
   - A solution to render faster moving clouds with temporal upscaling as well as visual enhancements
 
 # Inspirations
-- [Luke Howard, "On the Modification of Clouds" (1802)](https://blogs.bl.uk/science/2020/04/clouds-how-luke-howard-linked-weather-lore-and-natural-philosophy.html) classified clouds by their altitude, basic physical characteristics, and the conditions (amount of water vapor, temperature, weather, changes over altitude, wind, turbulence) that give rise to their development:
-  - Cirrus: Heap / Pile (Latin)
-  - Cumulus: Layer / Sheet (Latin)
-  - Stratus: Hair / Fibre (Latin)
+- [Luke Howard, "On the Modification of Clouds" (1802)](https://blogs.bl.uk/science/2020/04/clouds-how-luke-howard-linked-weather-lore-and-natural-philosophy.html) classified clouds by their altitude, basic physical characteristics, and the conditions (amount of water vapor, temperature, weather, changes over altitude, wind, turbulence) that give rise to their development in Latin:
+  - Cirrus: Heap / Pile 
+  - Cumulus: Layer / Sheet 
+  - Stratus: Hair / Fibre
 
 # Nubis: Real-time Volumetric Cloud System
 - Guerrilla's Nubis Cloud System is named after Luke Howard's "nubification": Water vapors in warm layers of air, rises and enters cold air which cuases it to condense on dust particles, rendering it invisible to us
