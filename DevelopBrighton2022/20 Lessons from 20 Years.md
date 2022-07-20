@@ -8,7 +8,7 @@ Business advice and takeaways from industry luminaries and some of the most prom
 2. Democratisation of development with more available game engines
 3. The rise of indie games & Self-publishing: more diversity
 4. Expansion of gaming audience through Mobile Games, Free-to-play, Casual & Social Games
-5. Live Service games & Microtransactions
+5. Live Service games & microtransactions
 6. Online gaming (console / mobile)
 7. Streaming / Cloud gaming
 8. Esports
