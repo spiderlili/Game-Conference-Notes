@@ -42,7 +42,7 @@ Speaker: [Sophie van den Boomen, PlayStation](https://www.linkedin.com/in/sophie
 
 ### Consequences of Misconceptions
 - Difficult to plan
-- Wasted time: tool not being used
+- Wasted time: tool / feature not being used
 - Lack of coherence: no standards
 - Inorganic tools: hard to work with
 - Unsatisfying output: all sorts of ways
