@@ -96,12 +96,11 @@ Use 3D noise textures like:
 - J.H Lambert (1760): express reduction of light transmittance as a function of optical depth (d) in a given medium
   - T = e ** -d 
 - The deeper a photon is in a translucent object: the lower the probability that you'll escape & reach someone's eyes 
-- HenyeyGreenstein function to approximate the intensity of scattered light that the viewer sees
+- Henyey-Greenstein function to approximate the intensity of scattered light that the viewer sees
 
 ### Performance
 - Performing within a reasonable budget on PS5 & PS4 hardware
   - Using different Max Resolution, Light Ray Samples, View Ray Samples, Blur Scale (pixels), Noise Texture MIP Level for PS4 & PS5 
-- How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
 
 ## Superstorms
 - El Reno, OK (2013) visualization, National Center for Supercomputing Applications: reacreating a superstorm using a supercomputer
@@ -116,7 +115,7 @@ Use 3D noise textures like:
 
 # lightning effects and further visual enhancements 
 - Lightning System: General Position => Trigger Flash Animation
-- Nubis Renderer: receivs flash positino from lightning system's general position, genereate stable mask
+- Nubis Renderer: receivs flash position from lightning system's general position, genereate stable mask
 
 # Related Talks & Resources
 - [SIGGRAPH 2022 - Nubis, Evolved: Real-Time Volumetric Clouds for Skies, Environments, and VFX](https://t.co/a3YHUMPlsw)
