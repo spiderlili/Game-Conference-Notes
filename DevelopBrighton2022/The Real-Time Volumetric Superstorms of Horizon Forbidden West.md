@@ -100,6 +100,7 @@ Use 3D noise textures like:
 
 ### Performance
 - Performing within a reasonable budget on PS5 & PS4 hardware
+  - Using different Max Resolution, Light Ray Samples, View Ray Samples, Blur Scale (pixels), Noise Texture MIP Level for PS4 & PS5 
 - How to dramatically increase the speed of fast moving temporally constructed volumetric imagery
 
 ## Superstorms
