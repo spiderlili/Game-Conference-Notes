@@ -126,7 +126,6 @@ Use 3D noise textures like:
 
 ## Superstorms
 - El Reno, OK (2013) visualization, National Center for Supercomputing Applications: reacreating a superstorm using a supercomputer
-  - [The Man Who Caught the Storm, Brantley Hargrove](https://www.amazon.co.uk/Man-Who-Caught-Storm-Legendary/dp/1476796092)
 - The Mesocyclone
   - A column, flat & spread out on bottom
   - Ragged shapes
@@ -143,4 +142,4 @@ Use 3D noise textures like:
 - [SIGGRAPH 2022 - Nubis, Evolved: Real-Time Volumetric Clouds for Skies, Environments, and VFX](https://t.co/a3YHUMPlsw)
 - [Nubis: Realtime Volumetric Cloudscapes In A Nutshell](https://www.guerrilla-games.com/read/nubis-realtime-volumetric-cloudscapes-in-a-nutshell)
 - [Nubis: authoring real-time volumetric cloudscapes with the decima engine](https://www.guerrilla-games.com/read/nubis-authoring-real-time-volumetric-cloudscapes-with-the-decima-engine)
-
+- [The Man Who Caught the Storm, Brantley Hargrove](https://www.amazon.co.uk/Man-Who-Caught-Storm-Legendary/dp/1476796092)
