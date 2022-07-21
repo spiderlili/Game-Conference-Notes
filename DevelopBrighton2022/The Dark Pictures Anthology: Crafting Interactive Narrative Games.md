@@ -67,7 +67,7 @@ Stephen King - 3 types of horror:
 1. Gore
 2. Creature
 3. Jump-scare: _"A vampire is seen inside a hole in the wall, crawling slowly out of view. If a character shines their torch on it, the vampire hisses and dashes away quickly"_ 
-5. Horror: _"The marines hear Joey calling from the dark ahead. But Joey is supposed to be dead?"
+5. Horror: _"The marines hear Joey calling from the dark ahead. But Joey is supposed to be dead?"_
 6. Fake-out
 7. Suspense: _"A bang is heard from the room ahead, putting the marines on high alert. The lamp in the room flickers ominously."_
 8. Psychological
