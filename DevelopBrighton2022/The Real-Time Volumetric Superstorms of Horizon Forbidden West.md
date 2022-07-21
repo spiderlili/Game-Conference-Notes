@@ -7,7 +7,7 @@
   - Tornadic superstorms
   - Internal lighting 
   - Lightning flashes
-  - A solution to render faster moving clouds with temporal upscaling as well as visual enhancements
+  - How to render faster moving clouds with temporal upscaling
 
 # Inspirations
 - [Luke Howard, "On the Modification of Clouds" (1802)](https://blogs.bl.uk/science/2020/04/clouds-how-luke-howard-linked-weather-lore-and-natural-philosophy.html) classified clouds by their altitude, basic physical characteristics, and the conditions (amount of water vapor, temperature, weather, changes over altitude, wind, turbulence) that give rise to their development in Latin:
