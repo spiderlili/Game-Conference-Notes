@@ -87,16 +87,38 @@ Use 3D noise textures like:
   - Direct scattering: light energy associated with the strongest light source (sun)
   - Ambient scattering: light energy associated with the contribution from other bright sources (sky, neighoburing clouds)
 
-#### Direct Scattering
+#### Direct Scattering: Absorption, Phase, In-scattering
 - Define direct scattering at a given sample point in a cloud as a function of 3 probabilities:
   - Direct scattering = Transmittance * Scattering Phase * In-Scatter Probability
-- Absorptive properties [(Beer's Law)](https://en.wikipedia.org/wiki/Beer–Lambert_law) is a reasonable approximation for traslucent clouds:
+- Absorptive properties using [(Beer-Lambert Law)](https://en.wikipedia.org/wiki/Beer–Lambert_law) is a reasonable approximation for traslucent clouds' attenuation:
   - Sum up the density samples along the light rays, plug it into the equation as the optical depth  
 - Augustus Beer (1852): quick way to masure how much light was being absorbed by opaque molecules in a solution
 - J.H Lambert (1760): express reduction of light transmittance as a function of optical depth (d) in a given medium
   - T = e ** -d 
 - The deeper a photon is in a translucent object: the lower the probability that you'll escape & reach someone's eyes 
-- Henyey-Greenstein function to approximate the intensity of scattered light that the viewer sees
+
+#### Light scattering directionality
+- in clouds, light scatters in a forward direction - there's a higher probability you will see scattered light when you look towards the sun through a cloud.
+  - Henyey-Greenstein function to approximate the intensity of scattered light that the viewer sees: based on Heyyey Greenstein's solution of light directionality problems at galactic scales.
+  - Depending on the material transmitting the light and the angle between the viewer & the sun: this function can approximate the intensity of scattered light that the viewer sees.
+  - Since clouds are slightly forward scattering: supply an eccentricity of 0.2
+- Combine several of Henyey-Greenstein functions with varying eccentricities to give more control over art-direction of silver lining at sunset
+
+#### In-Scattering Probability Function
+- Dark edges when you look at clouds with the sun behind you: photons enter the cloud & scatter in many directions when they hit clumps of water molecules. Some of these photons exit and escape to your eye = in-scattering
+- Imagine it as a black cloud with no light scattering happening on the edges, but deeper in the cloud: in-scattering have the opportunity to get out more often. 
+- Look at this effect geometrically as the result of in-scattering potential => easier to model quickly. Example:
+  - 2 Sample Points: A is behind a convex surface, B is behind a concave surface
+  - B will have more in-scattering contributors between it and the sun.
+- What's the probability of in-scattering occuring in these points?
+  - Inverse of Beer-Lambert: the in-scattering probability function
+
+#### Ambient Scattering
+- Add dimensionality to the clouds & the shadowed areas
+- Approximate the effect of light entering the cloud from all around without the expensive operation of raymarching to many light sources: model this geometrically as a probability field
+  - the coarse density sample already provides a gradient from the outside of the cloud to the inside
+  - use the inverse of the coarse density sample to create a gradient representing the probability that light will reach a given point in the cloud
+  - Ambient Scattering = pow(1 - coarse_density, 0.5)
 
 ### Performance
 - Performing within a reasonable budget on PS5 & PS4 hardware
