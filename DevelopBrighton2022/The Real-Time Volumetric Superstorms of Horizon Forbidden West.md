@@ -63,19 +63,39 @@ Use 3D noise textures like:
 
 ## Nubis Data Field Generator
 - To fill the sky with clouds: need a system to define a field of cloud coverage & type data over the XY domian of the world so it can be sampled in the nubis renderer.
-- Nubis Data Field Generator is usig a set of noise remap functions & composites: can produce a variety of different cloudscapes.
+- Nubis Data Field (NDF) Generator uses a set of noise remap functions & composites to produce a variety of different cloudscapes.
 
-#### The Renderer
+### The Renderer
 - Construct renders using raymarching: can be used whnever you need to construct an image that contains volumetric objects.
 - Construct density & lighting samples at several points along the view vector & combine them.
 - Done for every pixel to produce a full render
-- To ray march volumetrics like clouds efficiently: good idea on where to begin & end march
+- Need to know where to begin & end march to raymarch volumetrics like clouds efficiently
+- Since the atmosphere of the earth is a spherical shell: can define raymarch ray segment using intersections on the inside & outside of the shell.
+  - Cirrus cloud layer onlybneed 1 intersection as it's a 2D layer
+- Know where you don't need to construct any samples: skip raymarching these pixels altogether for optimisation
+  - If objects like trees & mountains render in front of clouds: don't march from those pixels => reduce the total amount of work that needs to be done.
+- For pixels that have visible sky in them: march over the view ray to gather the density & lighting data needed to construct pixel color & opacity
+  - Start with large steps
+  - Construct a "coarse sample" at each step: ubilt with only the cloud coverage & vertical profile gradient to keep the operation cheap
+  - Check these coarse samples until one of them produces a non-zero result: then switch to taking smaller steps to construct "fine samples" which include 3D noise texture amples needed to erode the base cloud shape
+  - Repeat until the total density sampled along the view ray sums full opacity => stop the march
 
-### The Lighting Model
+#### How to calculate light intensity info for cloud color?
+- For every fine sample, march towards the light along the light ray, taking fine samples to gather the density amount between the sample & light source for use in light intensity calculations.
+- Very computationally expensive to model what happens when a photo enters a cloud: focus on the characteristics of cloud lighting that's the most important to your usecase, model less expensive approximation methods for them.
+- Light energy = direct scattering + ambient scattering
+  - Direct scattering: light energy associated with the strongest light source (sun)
+  - Ambient scattering: light energy associated with the contribution from other bright sources (sky, neighoburing clouds)
+
 #### Direct Scattering
-Optical Depth(d): T = e ** -d
-- Augustus Beer (1852)
-- J.H Lambert (1760)
+- Define direct scattering at a given sample point in a cloud as a function of 3 probabilities:
+  - Direct scattering = Transmittance * Scattering Phase * In-Scatter Probability
+- Absorptive properties [(Beer's Law)](https://en.wikipedia.org/wiki/Beer–Lambert_law) is a reasonable approximation for traslucent clouds:
+  - Sum up the density samples along the light rays, plug it into the equation as the optical depth  
+- Augustus Beer (1852): quick way to masure how much light was being absorbed by opaque molecules in a solution
+- J.H Lambert (1760): express reduction of light transmittance as a function of optical depth (d) in a given medium
+  - T = e ** -d 
+- The deeper a photon is in a translucent object: the lower the probability that you'll escape & reach someone's eyes 
 
 ### Performance
 - Performing within a reasonable budget on PS5 & PS4 hardware
