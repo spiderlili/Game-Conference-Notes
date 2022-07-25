@@ -120,7 +120,20 @@ Use 3D noise textures like:
   - use the inverse of the coarse density sample to create a gradient representing the probability that light will reach a given point in the cloud
   - Ambient Scattering = pow(1 - coarse_density, 0.5)
 
+#### Ray-March Integration: how to determine color & opacity for a pixel
+- Samples deeper into the cloud have less influence on the final color & opacity because they're occluded.
+- Beer-Lambert Transmittance Function: use depth to attenuate light. 
+- In this case: need to reduce the influence of samples along the view ray at each step
+  - Accuulate light absorption from sampled density
+  - Accumulate energy & attenuate based on depth in the cloud along the view ray
+
+#### Temporal Upscaling to accelerate renders
+- Split render up into blocks of 16 pixels amortised over time
+- Blocks run in parallel
+- Working buffer resolution: 480 x 270, upscale to 1920 x 1080 => turns 16 ms render into 2ms, keep the same budget going forward for all projects
+
 ### Performance
+- Base (60+ ms) => Parallelization (22 ms) => March Optimisations (3.34 ms) => Exclude Hidden Pixels (<= 2.0 ms)
 - Performing within a reasonable budget on PS5 & PS4 hardware
   - Using different Max Resolution, Light Ray Samples, View Ray Samples, Blur Scale (pixels), Noise Texture MIP Level for PS4 & PS5 
 
