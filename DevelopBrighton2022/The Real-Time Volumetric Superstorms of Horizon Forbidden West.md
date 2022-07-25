@@ -142,14 +142,42 @@ Use 3D noise textures like:
 - Timelapse Reference: El Reno, OK (2013) visualization, National Center for Supercomputing Applications, Reacreating a Superstorm using a Supercomputer
 - Supercells
   - Storm occurs primarily in spring & summer in US: a big, distructive source of energy that can produce tornadoes, important to regulating the climate
-  - Key features: 
+  - Key features for realism: 
     - The Mesocyclone
-      - A column, flat & spread out on bottom
-      - Ragged shapes
-      - Vortex shape / motion 
+      - A cylindrical column of cloud at the foot, flat & spread out on bottom
+      - Ragged cloud shapes on the underside
+      - Vortex shape / motion: slowly moving spiral
+      - Tornadoes can form in the centre 
     - The Anvil Cloud
-      - Above the mesocyclone
-      - Propagation into cirrus layer 
+      - Towering above the Mesocyclone
+      - Flatten at the top, spread into the upper cloud layers
+      - Propagation into Cirrus layer 
+    - Lighting Effects Unique to Superstorms
+      - Internal lighting sources
+      - Ambient lighting sources  
+  - Integrate key features as a function of the cloud system to reduce the unique code required => good for performance & sanity
+
+### Modelling Density
+- Localize the superstorms: expand NUBIS data field generator to support super storm stencils to avoid affecting the entire cloud map
+  - Using a position, radius, coverage: stencils would only affect the region they occupied.
+  - Modelling data would be overridden for the tropospheric & cirrus layers to create the Mesocyclone & Anvil clouds
+  - Making a cloud mountain: increase cloud coverage & type radially towards a point
+  - Within superstorm radius: composite several noises, blend to their max values at the centre to produce Mesocyclone's characteristic cylindrical foot
+- Add ragged details on the underside of the mesocyclone: expand cloud type to support an additional bottom cloud type that can change the noise shapes on the bottom of clouds to be more ragged.
+- Blend lighting effects unique to superstorms: add superstorm coverage data to model
+- Vertical profile gradient is split into bottom & top gradinets => cloud bottom & top types can be applied independently, multiply the result of the 2 look-ups to produce the vertical profile gradient for a given sample
+  - As the bottom type increases: the vertical profile curve relaxes, the noise types blend to wispier shapes => ragged look on Mesocyclone's understide 
+  - Model the spiral vortex tendril shapes at the base by twisting noises around the Mesocyclone's centre
+  - Variable min & max cloud height are encoded to a new data field to alter the superstorm's heights when needed
+- Use NUBIS data field generator to create a set of distorted noises & radial gradients as signals for height adjustments => gives the underside more definition
+
+### Animating Density
+- Make several volumetric vortices using fluid simulation with sine / cosine rotation (Houdini / Maya)
+- Problem: fluid simulation can produce realistic motion but can flow out of control over time causing big changes in the overall shapes
+- Common Solution for the underside of Mesocyclone: advect an initial cloud pnancake around in a vortex, render out a few seconds of the motion for use in the shot.
+- Custom Solution for continuous effect lasting several minutes: fake fluid vortex motion using rotations & blending.
+  - Mesocyclone spin faster at the centre & slow at the edges
+  - Instead of using a generalized technique like flow maps: explicitly determine rotation speeds using a set of nested rings for more control
 
 # lightning effects and further visual enhancements 
 - Lightning System: General Position => Trigger Flash Animation
