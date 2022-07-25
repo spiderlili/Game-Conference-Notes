@@ -138,14 +138,18 @@ Use 3D noise textures like:
   - Using different Max Resolution, Light Ray Samples, View Ray Samples, Blur Scale (pixels), Noise Texture MIP Level for PS4 & PS5 
 
 ## Superstorms
-- El Reno, OK (2013) visualization, National Center for Supercomputing Applications: reacreating a superstorm using a supercomputer
-- The Mesocyclone
-  - A column, flat & spread out on bottom
-  - Ragged shapes
-  - Vortex shape / motion 
-- The Anvil Cloud
-  - Above the mesocyclone
-  - Propagation into cirrus layer 
+- Goals: realistic, powerful, ominous, dynamic, performant
+- Timelapse Reference: El Reno, OK (2013) visualization, National Center for Supercomputing Applications, Reacreating a Superstorm using a Supercomputer
+- Supercells
+  - Storm occurs primarily in spring & summer in US: a big, distructive source of energy that can produce tornadoes, important to regulating the climate
+  - Key features: 
+    - The Mesocyclone
+      - A column, flat & spread out on bottom
+      - Ragged shapes
+      - Vortex shape / motion 
+    - The Anvil Cloud
+      - Above the mesocyclone
+      - Propagation into cirrus layer 
 
 # lightning effects and further visual enhancements 
 - Lightning System: General Position => Trigger Flash Animation
